@@ -2,19 +2,20 @@
 
 
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: _Calendars.ReadWrite_
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<id>/events/<id>/Microsoft.Graph.decline
+POST /users/<id | userPrincipalName>/events/<id>/Microsoft.Graph.decline
 POST /groups/<id>/events/<id>/Microsoft.Graph.decline
-POST /users/<id>/calendarView/<id>/Microsoft.Graph.decline
+POST /users/<id | userPrincipalName>/calendarView/<id>/Microsoft.Graph.decline
 
 ```
 ### Request headers
 | Name       | Type | Description|
 |:---------------|:--------|:----------|
 | Authorization  | string  | Bearer <token>. Required. |
+| Content-Type | string  | Nature of the data in the body of an entity. Required. |
 
 ### Request body
 In the request body, provide a JSON object with the following parameters.
@@ -25,7 +26,7 @@ In the request body, provide a JSON object with the following parameters.
 |sendResponse|Boolean||
 
 ### Response
-If successful, this method returns `200, OK` response code. It does not return anything in the response body.
+If successful, this method returns `202, Accepted` response code. It does not return anything in the response body.
 
 ### Example
 Here is an example of how to call this API.

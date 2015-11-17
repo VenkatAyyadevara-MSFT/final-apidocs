@@ -2,13 +2,13 @@
 
 Update the properties of event object.
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: _Calendars.ReadWrite_
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /users/<id>/events/<id>
+PATCH /users/<id | userPrincipalName>/events/<id>
 PATCH /groups/<id>/events/<id>
-PATCH /users/<id>/calendarView/<id>
+PATCH /users/<id | userPrincipalName>/calendarView/<id>
 ```
 ### Request headers
 | Name       | Type | Description|

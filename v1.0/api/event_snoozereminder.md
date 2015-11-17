@@ -2,19 +2,20 @@
 
 
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: _Calendars.ReadWrite_
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<id>/events/<id>/Microsoft.Graph.snoozeReminder
+POST /users/<id | userPrincipalName>/events/<id>/Microsoft.Graph.snoozeReminder
 POST /groups/<id>/events/<id>/Microsoft.Graph.snoozeReminder
-POST /users/<id>/calendarView/<id>/Microsoft.Graph.snoozeReminder
+POST /users/<id | userPrincipalName>/calendarView/<id>/Microsoft.Graph.snoozeReminder
 
 ```
 ### Request headers
 | Name       | Type | Description|
 |:---------------|:--------|:----------|
 | Authorization  | string  | Bearer <token>. Required. |
+| Content-Type | string  | Nature of the data in the body of an entity. Required. |
 
 ### Request body
 In the request body, provide a JSON object with the following parameters.

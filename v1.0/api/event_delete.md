@@ -2,13 +2,13 @@
 
 Delete event.
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: _Calendars.ReadWrite_ 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /users/<id>/events/<id>
+DELETE /users/<id | userPrincipalName>/events/<id>
 DELETE /groups/<id>/events/<id>
-DELETE /users/<id>/calendarView/<id>
+DELETE /users/<id | userPrincipalName>/calendarView/<id>
 
 ```
 ### Request headers
@@ -21,7 +21,7 @@ Do not supply a request body for this method.
 
 
 ### Response
-If successful, this method returns `204, No Content` response code. It does not return anything in the response body.
+If successful, this method returns `202, Accepted` response code. It does not return anything in the response body.
 
 ### Example
 ##### Request
