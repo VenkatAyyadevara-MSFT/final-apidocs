@@ -76,11 +76,11 @@ Here is a JSON representation of the resource
 |:---------------|:--------|:----------|
 |appRoleAssignedTo|[AppRoleAssignment](approleassignment.md)|Principals (users, groups, and service principals) that are assigned to this service principal. Requires version 1.5 or newer. Read-only.|
 |appRoleAssignments|[AppRoleAssignment](approleassignment.md) collection|Applications that the service principal is assigned to. Requires version 1.5 or newer. Read-only. Nullable.|
-|createdObjects|[directoryObject}(directoryobject.md) collection|Directory objects created by this service principal. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
-|memberOf|[directoryObject}(directoryobject.md) collection|Roles that this service principal is a member of. Inherited from [directoryObject}.            HTTP Methods: GET Read-only. Nullable.|
+|createdObjects|[directoryObject](directoryobject.md) collection|Directory objects created by this service principal. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
+|memberOf|[directoryObject](directoryobject.md) collection|Roles that this service principal is a member of. Inherited from [directoryObject}.            HTTP Methods: GET Read-only. Nullable.|
 |oauth2PermissionGrants|[oAuth2PermissionGrant](oauth2permissiongrant.md) collection|User impersonation grants associated with this service principal. Requires version 1.5 or newer. Read-only. Nullable.|
-|ownedObjects|[directoryObject}(directoryobject.md) collection|Directory objects that are owned by this service principal. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
-|owners|[directoryObject}(directoryobject.md) collection|Directory objects that are owners of this service principal. The owners are a set of non-admin users who are allowed to modify this object. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
+|ownedObjects|[directoryObject](directoryobject.md) collection|Directory objects that are owned by this service principal. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
+|owners|[directoryObject](directoryobject.md) collection|Directory objects that are owners of this service principal. The owners are a set of non-admin users who are allowed to modify this object. Inherited from [directoryObject}. Requires version 2013-11-08 or newer. Read-only. Nullable.|
 
 ### Methods
 
@@ -89,16 +89,16 @@ Here is a JSON representation of the resource
 |[Get servicePrincipal](../api/serviceprincipal_get.md) | [servicePrincipal](serviceprincipal.md) |Read properties and relationships of servicePrincipal object.|
 |[Create AppRoleAssignment](../api/serviceprincipal_post_approleassignments.md) |[AppRoleAssignment](approleassignment.md)| Create a new AppRoleAssignment by posting to the appRoleAssignments collection.|
 |[List appRoleAssignments](../api/serviceprincipal_list_approleassignments.md) |[AppRoleAssignment](approleassignment.md) collection| Get a AppRoleAssignment object collection.|
-|[Create createdObject](../api/serviceprincipal_post_createdobjects.md) |[directoryObject}(directoryobject.md)| Create a new createdObject by posting to the createdObjects collection.|
-|[List createdObjects](../api/serviceprincipal_list_createdobjects.md) |[directoryObject}(directoryobject.md) collection| Get a createdObject object collection.|
-|[Create memberOf](../api/serviceprincipal_post_memberof.md) |[directoryObject}(directoryobject.md)| Create a new memberOf by posting to the memberOf collection.|
-|[List memberOf](../api/serviceprincipal_list_memberof.md) |[directoryObject}(directoryobject.md) collection| Get a memberOf object collection.|
+|[Create createdObject](../api/serviceprincipal_post_createdobjects.md) |[directoryObject](directoryobject.md)| Create a new createdObject by posting to the createdObjects collection.|
+|[List createdObjects](../api/serviceprincipal_list_createdobjects.md) |[directoryObject](directoryobject.md) collection| Get a createdObject object collection.|
+|[Create memberOf](../api/serviceprincipal_post_memberof.md) |[directoryObject](directoryobject.md)| Create a new memberOf by posting to the memberOf collection.|
+|[List memberOf](../api/serviceprincipal_list_memberof.md) |[directoryObject](directoryobject.md) collection| Get a memberOf object collection.|
 |[Create oAuth2PermissionGrant](../api/serviceprincipal_post_oauth2permissiongrants.md) |[oAuth2PermissionGrant](oauth2permissiongrant.md)| Create a new oAuth2PermissionGrant by posting to the oauth2PermissionGrants collection.|
 |[List oauth2PermissionGrants](../api/serviceprincipal_list_oauth2permissiongrants.md) |[oAuth2PermissionGrant](oauth2permissiongrant.md) collection| Get a oAuth2PermissionGrant object collection.|
-|[Create ownedObject](../api/serviceprincipal_post_ownedobjects.md) |[directoryObject}(directoryobject.md)| Create a new ownedObject by posting to the ownedObjects collection.|
-|[List ownedObjects](../api/serviceprincipal_list_ownedobjects.md) |[directoryObject}(directoryobject.md) collection| Get a ownedObject object collection.|
-|[Create owner](../api/serviceprincipal_post_owners.md) |[directoryObject}(directoryobject.md)| Create a new owner by posting to the owners collection.|
-|[List owners](../api/serviceprincipal_list_owners.md) |[directoryObject}(directoryobject.md) collection| Get a owner object collection.|
+|[Create ownedObject](../api/serviceprincipal_post_ownedobjects.md) |[directoryObject](directoryobject.md)| Create a new ownedObject by posting to the ownedObjects collection.|
+|[List ownedObjects](../api/serviceprincipal_list_ownedobjects.md) |[directoryObject](directoryobject.md) collection| Get a ownedObject object collection.|
+|[Create owner](../api/serviceprincipal_post_owners.md) |[directoryObject](directoryobject.md)| Create a new owner by posting to the owners collection.|
+|[List owners](../api/serviceprincipal_list_owners.md) |[directoryObject](directoryobject.md) collection| Get a owner object collection.|
 |[Update](../api/serviceprincipal_update.md) | [servicePrincipal](serviceprincipal.md)	|Update servicePrincipal object. |
 |[Delete](../api/serviceprincipal_delete.md) | None |Delete servicePrincipal object. |
 |[checkMemberGroups](../api/serviceprincipal_checkmembergroups.md)|String collection||

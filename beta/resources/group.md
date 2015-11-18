@@ -81,21 +81,21 @@ Here is a JSON representation of the resource
 ### Relationships
 | Relationship | Type	|Description|
 |:---------------|:--------|:----------|
-|acceptedSenders|[directoryObject}(directoryobject.md) collection| Read-only. Nullable.|
+|acceptedSenders|[directoryObject](directoryobject.md) collection| Read-only. Nullable.|
 |calendar|[Calendar](calendar.md)| Read-only.|
 |calendarView|[Event](event.md) collection| Read-only. Nullable.|
 |conversations|[Conversation](conversation.md) collection| Read-only. Nullable.|
-|createdOnBehalfOf|[directoryObject}(directoryobject.md)| Read-only.|
+|createdOnBehalfOf|[directoryObject](directoryobject.md)| Read-only.|
 |drive|[drive](drive.md)| Read-only.|
 |events|[Event](event.md) collection| Read-only. Nullable.|
-|memberOf|[directoryObject}(directoryobject.md) collection|Groups that this group is a member of. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups)  Groups that this group is a member of. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups)  Read-only. Nullable.|
-|members|[directoryObject}(directoryobject.md) collection|Users, contacts, and groups that are members of this group. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Users, contacts, and groups that are members of this group. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Read-only. Nullable.|
+|memberOf|[directoryObject](directoryobject.md) collection|Groups that this group is a member of. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups)  Groups that this group is a member of. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups)  Read-only. Nullable.|
+|members|[directoryObject](directoryobject.md) collection|Users, contacts, and groups that are members of this group. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Users, contacts, and groups that are members of this group. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Read-only. Nullable.|
 |notes|[Notes](notes.md)| Read-only.|
-|owners|[directoryObject}(directoryobject.md) collection|The owners of the group. The owners are a set of non-admin users who are allowed to modify this object. Requires version 2013-11-08 or newer. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) The owners of the group. The owners are a set of non-admin users who are allowed to modify this object. Requires version 2013-11-08 or newer. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Read-only. Nullable.|
+|owners|[directoryObject](directoryobject.md) collection|The owners of the group. The owners are a set of non-admin users who are allowed to modify this object. Requires version 2013-11-08 or newer. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) The owners of the group. The owners are a set of non-admin users who are allowed to modify this object. Requires version 2013-11-08 or newer. Inherited from [directoryObject}.            HTTP Methods: GET (supported for all groups), POST (supported for security groups and mail-enabled security groups), DELETE (supported only for security groups) Read-only. Nullable.|
 |photo|[Photo](photo.md)| Read-only.|
 |photos|[Photo](photo.md) collection| Read-only. Nullable.|
 |plans|[plan](plan.md) collection| Read-only. Nullable. Plans owned by the group. A group can own no more than one plan. |
-|rejectedSenders|[directoryObject}(directoryobject.md) collection| Read-only. Nullable.|
+|rejectedSenders|[directoryObject](directoryobject.md) collection| Read-only. Nullable.|
 |threads|[ConversationThread](conversationthread.md) collection| Read-only. Nullable.|
 
 ### Methods
@@ -103,8 +103,8 @@ Here is a JSON representation of the resource
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
 |[Get group](../api/group_get.md) | [group](group.md) |Read properties and relationships of group object.|
-|[Create acceptedSender](../api/group_post_acceptedsenders.md) |[directoryObject}(directoryobject.md)| Create a new acceptedSender by posting to the acceptedSenders collection.|
-|[List acceptedSenders](../api/group_list_acceptedsenders.md) |[directoryObject}(directoryobject.md) collection| Get a acceptedSender object collection.|
+|[Create acceptedSender](../api/group_post_acceptedsenders.md) |[directoryObject](directoryobject.md)| Create a new acceptedSender by posting to the acceptedSenders collection.|
+|[List acceptedSenders](../api/group_list_acceptedsenders.md) |[directoryObject](directoryobject.md) collection| Get a acceptedSender object collection.|
 |[Create AppRoleAssignment](../api/group_post_approleassignments.md) |[AppRoleAssignment](approleassignment.md)| Create a new AppRoleAssignment by posting to the appRoleAssignments collection.|
 |[List appRoleAssignments](../api/group_list_approleassignments.md) |[AppRoleAssignment](approleassignment.md) collection| Get a AppRoleAssignment object collection.|
 |[Create Event](../api/group_post_calendarview.md) |[Event](event.md)| Create a new Event by posting to the calendarView collection.|
@@ -113,17 +113,17 @@ Here is a JSON representation of the resource
 |[List conversations](../api/group_list_conversations.md) |[Conversation](conversation.md) collection| Get a Conversation object collection.|
 |[Create Event](../api/group_post_events.md) |[Event](event.md)| Create a new Event by posting to the events collection.|
 |[List events](../api/group_list_events.md) |[Event](event.md) collection| Get a Event object collection.|
-|[Create memberOf](../api/group_post_memberof.md) |[directoryObject}(directoryobject.md)| Create a new memberOf by posting to the memberOf collection.|
-|[List memberOf](../api/group_list_memberof.md) |[directoryObject}(directoryobject.md) collection| Get a memberOf object collection.|
-|[Create member](../api/group_post_members.md) |[directoryObject}(directoryobject.md)| Create a new member by posting to the members collection.|
-|[List members](../api/group_list_members.md) |[directoryObject}(directoryobject.md) collection| Get a member object collection.|
-|[Create owner](../api/group_post_owners.md) |[directoryObject}(directoryobject.md)| Create a new owner by posting to the owners collection.|
-|[List owners](../api/group_list_owners.md) |[directoryObject}(directoryobject.md) collection| Get a owner object collection.|
+|[Create memberOf](../api/group_post_memberof.md) |[directoryObject](directoryobject.md)| Create a new memberOf by posting to the memberOf collection.|
+|[List memberOf](../api/group_list_memberof.md) |[directoryObject](directoryobject.md) collection| Get a memberOf object collection.|
+|[Create member](../api/group_post_members.md) |[directoryObject](directoryobject.md)| Create a new member by posting to the members collection.|
+|[List members](../api/group_list_members.md) |[directoryObject](directoryobject.md) collection| Get a member object collection.|
+|[Create owner](../api/group_post_owners.md) |[directoryObject](directoryobject.md)| Create a new owner by posting to the owners collection.|
+|[List owners](../api/group_list_owners.md) |[directoryObject](directoryobject.md) collection| Get a owner object collection.|
 |[Create photo](../api/group_post_photos.md) |[Photo](photo.md)| Create a new photo by posting to the photos collection.|
 |[List photos](../api/group_list_photos.md) |[Photo](photo.md) collection| Get a photo object collection.|
 |[List plans](../api/group_list_plans.md) |[plan](plan.md) collection| Get a plan object collection.|
-|[Create rejectedSender](../api/group_post_rejectedsenders.md) |[directoryObject}(directoryobject.md)| Create a new rejectedSender by posting to the rejectedSenders collection.|
-|[List rejectedSenders](../api/group_list_rejectedsenders.md) |[directoryObject}(directoryobject.md) collection| Get a rejectedSender object collection.|
+|[Create rejectedSender](../api/group_post_rejectedsenders.md) |[directoryObject](directoryobject.md)| Create a new rejectedSender by posting to the rejectedSenders collection.|
+|[List rejectedSenders](../api/group_list_rejectedsenders.md) |[directoryObject](directoryobject.md) collection| Get a rejectedSender object collection.|
 |[Create thread](../api/group_post_threads.md) |[ConversationThread](conversationthread.md)| Create a new thread by posting to the threads collection.|
 |[List threads](../api/group_list_threads.md) |[ConversationThread](conversationthread.md) collection| Get a thread object collection.|
 |[Update](../api/group_update.md) | [group](group.md)	|Update group object. |

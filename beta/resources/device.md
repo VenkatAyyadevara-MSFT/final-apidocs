@@ -58,18 +58,18 @@ Here is a JSON representation of the resource
 ### Relationships
 | Relationship | Type	|Description|
 |:---------------|:--------|:----------|
-|registeredOwners|[directoryObject}(directoryobject.md) collection|Users that are registered owners of the device. Read-only. Nullable.|
-|registeredUsers|[directoryObject}(directoryobject.md) collection|Users that are registered users of the device. Read-only. Nullable.|
+|registeredOwners|[directoryObject](directoryobject.md) collection|Users that are registered owners of the device. Read-only. Nullable.|
+|registeredUsers|[directoryObject](directoryobject.md) collection|Users that are registered users of the device. Read-only. Nullable.|
 
 ### Methods
 
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
 |[Get device](../api/device_get.md) | [device](device.md) |Read properties and relationships of device object.|
-|[Create registeredOwner](../api/device_post_registeredowners.md) |[directoryObject}(directoryobject.md)| Create a new registeredOwner by posting to the registeredOwners collection.|
-|[List registeredOwners](../api/device_list_registeredowners.md) |[directoryObject}(directoryobject.md) collection| Get a registeredOwner object collection.|
-|[Create registeredUser](../api/device_post_registeredusers.md) |[directoryObject}(directoryobject.md)| Create a new registeredUser by posting to the registeredUsers collection.|
-|[List registeredUsers](../api/device_list_registeredusers.md) |[directoryObject}(directoryobject.md) collection| Get a registeredUser object collection.|
+|[Create registeredOwner](../api/device_post_registeredowners.md) |[directoryObject](directoryobject.md)| Create a new registeredOwner by posting to the registeredOwners collection.|
+|[List registeredOwners](../api/device_list_registeredowners.md) |[directoryObject](directoryobject.md) collection| Get a registeredOwner object collection.|
+|[Create registeredUser](../api/device_post_registeredusers.md) |[directoryObject](directoryobject.md)| Create a new registeredUser by posting to the registeredUsers collection.|
+|[List registeredUsers](../api/device_list_registeredusers.md) |[directoryObject](directoryobject.md) collection| Get a registeredUser object collection.|
 |[Update](../api/device_update.md) | [device](device.md)	|Update device object. |
 |[Delete](../api/device_delete.md) | None |Delete device object. |
 |[checkMemberGroups](../api/device_checkmembergroups.md)|String collection||
