@@ -19,7 +19,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "assistantName": "string",
-  "birthday": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "birthday": "String (timestamp)",
   "businessAddress": {"@odata.type": "microsoft.graph.physicalAddress"},
   "businessHomePage": "string",
   "businessPhones": ["string"],
@@ -27,7 +27,7 @@ Here is a JSON representation of the resource
   "changeKey": "string",
   "children": ["string"],
   "companyName": "string",
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdDateTime": "String (timestamp)",
   "department": "string",
   "displayName": "string",
   "emailAddresses": [{"@odata.type": "microsoft.graph.emailAddress"}],
@@ -40,7 +40,7 @@ Here is a JSON representation of the resource
   "imAddresses": ["string"],
   "initials": "string",
   "jobTitle": "string",
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedDateTime": "String (timestamp)",
   "manager": "string",
   "middleName": "string",
   "mobilePhone1": "string",

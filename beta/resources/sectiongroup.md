@@ -20,10 +20,10 @@ Here is a JSON representation of the resource.
 ```json
 {
   "createdBy": "string",
-  "createdTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdTime": "String (timestamp)",
   "id": "string (identifier)",
   "lastModifiedBy": "string",
-  "lastModifiedTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedTime": "String (timestamp)",
   "name": "string",
   "sectionGroupsUrl": "string",
   "sectionsUrl": "string",

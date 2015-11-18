@@ -18,7 +18,7 @@ Here is a JSON representation of the resource
 {
   "isChecked": true,
   "lastModifiedBy": "string",
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedDateTime": "String (timestamp)",
   "orderHint": "string",
   "title": "string"
 }

@@ -19,11 +19,11 @@ Here is a JSON representation of the resource.
 ```json
 {
   "createdBy": "string",
-  "createdTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdTime": "String (timestamp)",
   "id": "string (identifier)",
   "isDefault": true,
   "lastModifiedBy": "string",
-  "lastModifiedTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedTime": "String (timestamp)",
   "name": "string",
   "pagesUrl": "string",
   "self": "string"

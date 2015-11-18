@@ -18,9 +18,9 @@ Here is a JSON representation of the resource
 ```json
 {
   "customKeyIdentifier": "binary",
-  "endDate": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "endDate": "String (timestamp)",
   "keyId": "guid",
-  "startDate": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "startDate": "String (timestamp)",
   "type": "string",
   "usage": "string",
   "value": "binary"

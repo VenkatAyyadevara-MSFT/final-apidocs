@@ -20,7 +20,7 @@ Here is a JSON representation of the resource
 {
   "accountEnabled": true,
   "alternativeSecurityIds": [{"@odata.type": "microsoft.graph.alternativeSecurityId"}],
-  "approximateLastSignInDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "approximateLastSignInDateTime": "String (timestamp)",
   "deviceId": "string",
   "deviceMetadata": "string",
   "deviceVersion": 1024,
@@ -28,7 +28,7 @@ Here is a JSON representation of the resource
   "id": "string (identifier)",
   "isCompliant": true,
   "isManaged": true,
-  "onPremisesLastSyncDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "onPremisesLastSyncDateTime": "String (timestamp)",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "string",
   "operatingSystemVersion": "string",

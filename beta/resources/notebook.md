@@ -18,12 +18,12 @@ Here is a JSON representation of the resource
 ```json
 {
   "createdBy": "string",
-  "createdTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdTime": "String (timestamp)",
   "id": "string (identifier)",
   "isDefault": true,
   "isShared": true,
   "lastModifiedBy": "string",
-  "lastModifiedTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedTime": "String (timestamp)",
   "links": {"@odata.type": "microsoft.graph.notebookLinks"},
   "name": "string",
   "sectionGroupsUrl": "string",

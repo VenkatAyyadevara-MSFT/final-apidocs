@@ -31,7 +31,7 @@ Here is a JSON representation of the resource
   "mailNickname": "string",
   "mobilePhone": "string",
   "officeLocation": "string",
-  "onPremisesLastSyncDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "onPremisesLastSyncDateTime": "String (timestamp)",
   "onPremisesSyncEnabled": true,
   "postalCode": "string",
   "proxyAddresses": ["string"],

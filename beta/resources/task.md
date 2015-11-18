@@ -21,22 +21,22 @@ Here is a JSON representation of the resource
 {
   "appliedCategories": {"@odata.type": "microsoft.graph.appliedCategoriesCollection"},
   "assignedBy": "string",
-  "assignedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "assignedDateTime": "String (timestamp)",
   "assignedTo": "string",
   "assigneePriority": "string",
   "bucketId": "string",
-  "completedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "completedDateTime": "String (timestamp)",
   "conversationThreadId": "string",
   "createdBy": "string",
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
-  "dueDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdDateTime": "String (timestamp)",
+  "dueDateTime": "String (timestamp)",
   "hasDescription": true,
   "id": "string (identifier)",
   "orderHint": "string",
   "percentComplete": 1024,
   "planId": "string",
   "previewType": "String",
-  "startDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "startDateTime": "String (timestamp)",
   "title": "string"
 }
 
