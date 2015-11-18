@@ -1,6 +1,6 @@
 # servicePrincipal resource type
 
-Represents an instance of an application in a directory. Inherits from [directoryObject].
+Represents an instance of an application in a directory. Inherits from [directoryObject](directoryobject.md).
 
 
 ### JSON representation
@@ -51,36 +51,36 @@ Here is a JSON representation of the resource
 ### Properties
 | Property     | Type |Description|
 |:---------------|:--------|:----------|
-|accountEnabled|Boolean|                **true** if the service principal account is enabled; otherwise, **false**.            |
+|accountEnabled|Boolean| **true** if the service principal account is enabled; otherwise, **false**.            |
 |appDisplayName|String|The display name exposed by the associated application.|
 |appId|String|The unique identifier for the associated application (its **appId** property).|
-|appRoleAssignmentRequired|Boolean|Specifies whether an **appRoleAssignment** to a user or group is required before Azure AD will issue a user or access token to the application.                            **Notes**: Requires version 1.5 or newer, not nullable.            |
-|appRoles|[appRole](approle.md) collection|The application roles exposed by the associated application. For more information see the **appRoles** property definition on the [application] entity                            **Notes**: Requires version 1.5 or newer, not nullable.            |
+|appRoleAssignmentRequired|Boolean|Specifies whether an **appRoleAssignment** to a user or group is required before Azure AD will issue a user or access token to the application. Not nullable. |
+|appRoles|[appRole](approle.md) collection|The application roles exposed by the associated application. For more information see the **appRoles** property definition on the [application](application.md) entity. Not nullable. |
 |displayName|String|The display name for the service principal.|
 |errorUrl|String|            |
 |homepage|String|The URL to the homepage of the associated   application.|
-|keyCredentials|[keyCredential](keycredential.md) collection|The collection of key credentials associated with the service principal.                            **Notes**: not nullable.            |
+|keyCredentials|[keyCredential](keycredential.md) collection|The collection of key credentials associated with the service principal. Not nullable.            |
 |logoutUrl|String|            |
-|oauth2Permissions|[oAuth2Permission](oauth2permission.md) collection|The OAuth 2.0 permissions exposed by the associated application. For more information see the **oauth2Permissions** property definition on the [application] entity.                            **Notes**: Requires version 1.5 or newer, not nullable.            |
-|id|String|The unique identifier for the service principal. Inherited from [directoryObject].                            **Notes**: **key**, immutable, not nullable, unique.             Read-only.|
-|passwordCredentials|[passwordCredential](passwordcredential.md) collection|The collection of password credentials associated with the service principal.                            **Notes**: not nullable.            |
-|preferredTokenSigningKeyThumbprint|String|Reserved for internal use only. Do not write or otherwise rely on this property. May be removed in future versions.                            **Notes**: Requires version 1.5 or newer.            |
+|oauth2Permissions|[oAuth2Permission](oauth2permission.md) collection|The OAuth 2.0 permissions exposed by the associated application. For more information see the **oauth2Permissions** property definition on the [application](application.md) entity. Not nullable.            |
+|id|String|The unique identifier for the service principal. Inherited from [directoryObject](directoryobject.md). Key. Not nullable. Read-only.|
+|passwordCredentials|[passwordCredential](passwordcredential.md) collection|The collection of password credentials associated with the service principal. Not nullable. |
+|preferredTokenSigningKeyThumbprint|String|Reserved for internal use only. Do not write or otherwise rely on this property. May be removed in future versions. |
 |publisherName|String|The display name of the tenant in which the associated application is specified.|
-|replyUrls|String collection|The URLs that user tokens are sent to for sign in with the associated application, or the redirect URIs that OAuth 2.0 authorization codes and access tokens are sent to for the associated application.                            **Notes**: not nullable.            |
-|samlMetadataUrl|String|            |
-|servicePrincipalNames|String collection|The URIs that identify the associated application. For more information see, [Application Objects and Service Principal Objects](https://msdn.microsoft.com/en-us/library/azure/dn132633.aspx).                            **Notes**: not nullable, the **any** operator is required for filter expressions on multi-valued properties; for more information, see [Supported Queries, Filters, and Paging Options](https://msdn.microsoft.com/library/azure/dn727074.aspx).            |
-|tags|String collection|                                        **Notes**: not nullable.            |
+|replyUrls|String collection|The URLs that user tokens are sent to for sign in with the associated application, or the redirect URIs that OAuth 2.0 authorization codes and access tokens are sent to for the associated application. Not nullable. |
+|samlMetadataUrl|String| |
+|servicePrincipalNames|String collection|The URIs that identify the associated application. For more information see, [Application Objects and Service Principal Objects](https://msdn.microsoft.com/en-us/library/azure/dn132633.aspx).The **any** operator is required for filter expressions on multi-valued properties.  Not nullable. |
+|tags|String collection| Not nullable. |
 
 ### Relationships
 | Relationship | Type |Description|
 |:---------------|:--------|:----------|
-|appRoleAssignedTo|[appRoleAssignment](approleassignment.md)|Principals (users, groups, and service principals) that are assigned to this service principal. Requires version 1.5 or newer. Read-only.|
-|appRoleAssignments|[appRoleAssignment](approleassignment.md) collection|Applications that the service principal is assigned to. Requires version 1.5 or newer. Read-only. Nullable.|
-|createdObjects|[directoryObject](directoryobject.md) collection|Directory objects created by this service principal. Inherited from [directoryObject]. Requires version 2013-11-08 or newer. Read-only. Nullable.|
-|memberOf|[directoryObject](directoryobject.md) collection|Roles that this service principal is a member of. Inherited from [directoryObject].            HTTP Methods: GET Read-only. Nullable.|
-|oauth2PermissionGrants|[oAuth2PermissionGrant](oauth2permissiongrant.md) collection|User impersonation grants associated with this service principal. Requires version 1.5 or newer. Read-only. Nullable.|
-|ownedObjects|[directoryObject](directoryobject.md) collection|Directory objects that are owned by this service principal. Inherited from [directoryObject]. Requires version 2013-11-08 or newer. Read-only. Nullable.|
-|owners|[directoryObject](directoryobject.md) collection|Directory objects that are owners of this service principal. The owners are a set of non-admin users who are allowed to modify this object. Inherited from [directoryObject]. Requires version 2013-11-08 or newer. Read-only. Nullable.|
+|appRoleAssignedTo|[appRoleAssignment](approleassignment.md)|Principals (users, groups, and service principals) that are assigned to this service principal. Read-only.|
+|appRoleAssignments|[appRoleAssignment](approleassignment.md) collection|Applications that the service principal is assigned to. Read-only. Nullable.|
+|createdObjects|[directoryObject](directoryobject.md) collection|Directory objects created by this service principal. Read-only. Nullable.|
+|memberOf|[directoryObject](directoryobject.md) collection|Roles that this service principal is a member of. HTTP Methods: GET Read-only. Nullable.|
+|oauth2PermissionGrants|[oAuth2PermissionGrant](oauth2permissiongrant.md) collection|User impersonation grants associated with this service principal. Read-only. Nullable.|
+|ownedObjects|[directoryObject](directoryobject.md) collection|Directory objects that are owned by this service principal. Read-only. Nullable.|
+|owners|[directoryObject](directoryobject.md) collection|Directory objects that are owners of this service principal. The owners are a set of non-admin users who are allowed to modify this object. Read-only. Nullable.|
 
 ### Methods
 
