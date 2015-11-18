@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/messages/<id>/Microsoft.Graph.send
+POST /users/<id | userPrincipalName>/messages/<id>/Microsoft.Graph.send
 POST /drive/root/createdByUser/messages/<id>/Microsoft.Graph.send
 POST /drive/root/lastModifiedByUser/messages/<id>/Microsoft.Graph.send
 

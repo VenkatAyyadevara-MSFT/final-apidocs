@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /users/<objectId>/manager
+PATCH /users/<id | userPrincipalName>/manager
 PATCH /directoryObjects/<objectId>
 PATCH /contacts/<objectId>/manager
 ```
@@ -31,7 +31,7 @@ Here is an example of the request.
   "name": "update_directoryobject"
 }-->
 ```http
-PATCH https://graph.microsoft.com/beta/users/<objectId>/manager
+PATCH https://graph.microsoft.com/beta/users/<id | userPrincipalName>/manager
 Content-type: application/json
 Content-length: 111
 

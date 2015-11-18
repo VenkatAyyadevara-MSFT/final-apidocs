@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/appRoleAssignments
+GET /users/<id | userPrincipalName>/appRoleAssignments
 GET /drive/root/createdByUser/appRoleAssignments
 GET /drive/root/lastModifiedByUser/appRoleAssignments
 ```
@@ -30,7 +30,7 @@ Here is an example of the request.
   "name": "get_approleassignments"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/users/<objectId>/appRoleAssignments
+GET https://graph.microsoft.com/beta/users/<id | userPrincipalName>/appRoleAssignments
 ```
 ##### Response
 Here is an example of the response.

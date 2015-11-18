@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/calendarView
+GET /users/<id | userPrincipalName>/calendarView
 GET /drive/root/createdByUser/calendarView
 GET /drive/root/lastModifiedByUser/calendarView
 ```

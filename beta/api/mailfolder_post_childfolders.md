@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/mailFolders/<id>/childFolders
+POST /users/<id | userPrincipalName>/mailFolders/<id>/childFolders
 POST /drive/root/createdByUser/mailFolders/<id>/childFolders
 POST /drive/root/lastModifiedByUser/mailFolders/<id>/childFolders
 

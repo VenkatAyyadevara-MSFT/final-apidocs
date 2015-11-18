@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/oauth2PermissionGrants
+GET /users/<id | userPrincipalName>/oauth2PermissionGrants
 GET /drive/root/createdByUser/oauth2PermissionGrants
 GET /drive/root/lastModifiedByUser/oauth2PermissionGrants
 ```
@@ -30,7 +30,7 @@ Here is an example of the request.
   "name": "get_oauth2permissiongrants"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/users/<objectId>/oauth2PermissionGrants
+GET https://graph.microsoft.com/beta/users/<id | userPrincipalName>/oauth2PermissionGrants
 ```
 ##### Response
 Here is an example of the response.

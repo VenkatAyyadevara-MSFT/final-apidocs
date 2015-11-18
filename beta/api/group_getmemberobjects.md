@@ -7,7 +7,7 @@ The following **scopes** are required to execute this API:
 <!-- { "blockType": "ignored" } -->
 ```http
 POST /groups/<objectId>/Microsoft.Graph.getMemberObjects
-POST /users/<objectId>/joinedGroups/<objectId>/Microsoft.Graph.getMemberObjects
+POST /users/<id | userPrincipalName>/joinedGroups/<objectId>/Microsoft.Graph.getMemberObjects
 POST /drive/root/createdByUser/joinedGroups/<objectId>/Microsoft.Graph.getMemberObjects
 
 ```

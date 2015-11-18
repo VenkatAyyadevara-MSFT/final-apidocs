@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/messages
+POST /users/<id | userPrincipalName>/messages
 POST /drive/root/createdByUser/messages
 POST /drive/root/lastModifiedByUser/messages
 

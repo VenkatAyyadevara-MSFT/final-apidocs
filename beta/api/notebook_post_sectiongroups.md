@@ -9,7 +9,7 @@ Notes.Create, Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, or Notes.ReadWrite.
 ```http
 POST /me/notes/notebooks/<id>/sectionGroups
 POST /users/<mail>/notes/notebooks/<id>/sectionGroups
-POST /users/<objectId>/notes/notebooks/<id>/sectionGroups
+POST /users/<id | userPrincipalName>/notes/notebooks/<id>/sectionGroups
 POST /groups/<objectId>/notes/notebooks/<id>/sectionGroups
 ```
 ### Request headers

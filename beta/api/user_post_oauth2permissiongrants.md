@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/oauth2PermissionGrants
+POST /users/<id | userPrincipalName>/oauth2PermissionGrants
 POST /drive/root/createdByUser/oauth2PermissionGrants
 POST /drive/root/lastModifiedByUser/oauth2PermissionGrants
 
@@ -31,7 +31,7 @@ Here is an example of the request.
   "name": "create_oauth2permissiongrant_from_user"
 }-->
 ```http
-POST https://graph.microsoft.com/beta/users/<objectId>
+POST https://graph.microsoft.com/beta/users/<id | userPrincipalName>
 ```
 In the request body, supply a JSON representation of [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.
 ##### Response

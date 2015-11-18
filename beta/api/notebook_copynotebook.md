@@ -11,7 +11,7 @@ Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, or Notes.ReadWrite.All
 ```http
 POST /me/notes/notebooks/<id>/copyNotebook
 POST /users/<mail>/notes/notebooks/<id>/copyNotebook
-POST /users/<objectId>/notes/notebooks/<id>/copyNotebook
+POST /users/<id | userPrincipalName>/notes/notebooks/<id>/copyNotebook
 POST /groups/<objectId>/notes/notebooks/<id>/copyNotebook
 ```
 ### Request headers

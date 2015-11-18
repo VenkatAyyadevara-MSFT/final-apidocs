@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/inferenceClassification
+GET /users/<id | userPrincipalName>/inferenceClassification
 GET /drive/root/createdByUser/inferenceClassification
 GET /drive/root/lastModifiedByUser/inferenceClassification
 ```
