@@ -1,8 +1,8 @@
-# Create member
+# Add directory role member
 
-Use this API to create a new member.
+Use this API to create a new directory role member.
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: *Directory.ReadWrite.All* or *Directory.AccessAsUser.All*
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http

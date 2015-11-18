@@ -1,8 +1,9 @@
 # List members
 
-Retrieve a list of the users that are assigned to the directory role.
+Retrieve a list of the users that are assigned to the directory role.  Only users can be assigned to a directory role.
 ### Prerequisites
-One of the following **scopes** is required to execute this API: 
+One of the following **scopes** is required to execute this API: *Directory.Read.All* or *Directory.ReadWrite.All* or *Directory.AccessAsUser.All*
+
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
