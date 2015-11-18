@@ -91,7 +91,7 @@ Here is a JSON representation of the resource
 
 ```
 ### Properties
-| Property	   | Type	|Description|
+| Property     | Type |Description|
 |:---------------|:--------|:----------|
 |aboutMe|String||
 |accountEnabled|Boolean|                **true** if the account is enabled; otherwise, **false**. This property is required when a user is created.                             **true** if the account is enabled; otherwise, **false**. This property is required when a user is created.            |
@@ -136,7 +136,7 @@ Here is a JSON representation of the resource
 |userType|String|A string value that can be used to classify user types in your directory, such as “Member” and “Guest”.                            **Notes**: Requires version 2013-11-08 or newer.             A string value that can be used to classify user types in your directory, such as “Member” and “Guest”.                            **Notes**: Requires version 2013-11-08 or newer.            |
 
 ### Relationships
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |calendar|[Calendar](calendar.md)|The user's primary calendar. Navigation property. The user's primary calendar. Navigation property. Read-only.|
 |calendarGroups|[CalendarGroup](calendargroup.md) collection|The user's calendar groups. Navigation property. The user's calendar groups. Navigation property. Read-only. Nullable.|
@@ -168,7 +168,7 @@ Here is a JSON representation of the resource
 
 ### Methods
 
-| Method		   | Return Type	|Description|
+| Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[Get user](../api/user_get.md) | [user](user.md) |Read properties and relationships of user object.|
 |[Create appRoleAssignment](../api/user_post_approleassignments.md) |[appRoleAssignment](approleassignment.md)| Create a new appRoleAssignment by posting to the appRoleAssignments collection.|
@@ -215,7 +215,7 @@ Here is a JSON representation of the resource
 |[List trendingAround](../api/user_list_trendingaround.md) |[item](item.md) collection| Get a trendingAround object collection.|
 |[Create User](../api/user_post_workingwith.md) |[User](user.md)| Create a new User by posting to the workingWith collection.|
 |[List workingWith](../api/user_list_workingwith.md) |[User](user.md) collection| Get a User object collection.|
-|[Update](../api/user_update.md) | [user](user.md)	|Update user object. |
+|[Update](../api/user_update.md) | [user](user.md)  |Update user object. |
 |[Delete](../api/user_delete.md) | None |Delete user object. |
 |[Checkmembergroups](../api/user_checkmembergroups.md)|String collection||
 |[Get MemberGroups](../api/user_getmembergroups.md)|String collection||

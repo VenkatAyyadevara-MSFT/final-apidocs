@@ -49,7 +49,7 @@ Here is a JSON representation of the resource
 
 ```
 ### Properties
-| Property	   | Type	|Description|
+| Property     | Type |Description|
 |:---------------|:--------|:----------|
 |accountEnabled|Boolean|                **true** if the service principal account is enabled; otherwise, **false**.            |
 |appDisplayName|String|The display name exposed by the associated application.|
@@ -72,7 +72,7 @@ Here is a JSON representation of the resource
 |tags|String collection|                                        **Notes**: not nullable.            |
 
 ### Relationships
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |appRoleAssignedTo|[appRoleAssignment](approleassignment.md)|Principals (users, groups, and service principals) that are assigned to this service principal. Requires version 1.5 or newer. Read-only.|
 |appRoleAssignments|[appRoleAssignment](approleassignment.md) collection|Applications that the service principal is assigned to. Requires version 1.5 or newer. Read-only. Nullable.|
@@ -84,7 +84,7 @@ Here is a JSON representation of the resource
 
 ### Methods
 
-| Method		   | Return Type	|Description|
+| Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[Get servicePrincipal](../api/serviceprincipal_get.md) | [servicePrincipal](serviceprincipal.md) |Read properties and relationships of servicePrincipal object.|
 |[Create appRoleAssignment](../api/serviceprincipal_post_approleassignments.md) |[appRoleAssignment](approleassignment.md)| Create a new appRoleAssignment by posting to the appRoleAssignments collection.|
@@ -99,7 +99,7 @@ Here is a JSON representation of the resource
 |[List ownedObjects](../api/serviceprincipal_list_ownedobjects.md) |[directoryObject](directoryobject.md) collection| Get a ownedObject object collection.|
 |[Create owner](../api/serviceprincipal_post_owners.md) |[directoryObject](directoryobject.md)| Create a new owner by posting to the owners collection.|
 |[List owners](../api/serviceprincipal_list_owners.md) |[directoryObject](directoryobject.md) collection| Get a owner object collection.|
-|[Update](../api/serviceprincipal_update.md) | [servicePrincipal](serviceprincipal.md)	|Update servicePrincipal object. |
+|[Update](../api/serviceprincipal_update.md) | [servicePrincipal](serviceprincipal.md)  |Update servicePrincipal object. |
 |[Delete](../api/serviceprincipal_delete.md) | None |Delete servicePrincipal object. |
 |[checkMemberGroups](../api/serviceprincipal_checkmembergroups.md)|String collection||
 |[getMemberGroups](../api/serviceprincipal_getmembergroups.md)|String collection||
