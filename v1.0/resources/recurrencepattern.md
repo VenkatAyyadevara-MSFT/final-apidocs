@@ -29,12 +29,12 @@ Here is a JSON representation of the resource
 ```json
 {
   "dayOfMonth": 1024,
-  "daysOfWeek": [{"@odata.type": "microsoft.graph.dayOfWeek"}],
-  "firstDayOfWeek": {"@odata.type": "microsoft.graph.dayOfWeek"},
-  "index": {"@odata.type": "microsoft.graph.weekIndex"},
+  "daysOfWeek": ["String"],
+  "firstDayOfWeek": "String",
+  "index": "String",
   "interval": 1024,
   "month": 1024,
-  "type": {"@odata.type": "microsoft.graph.recurrencePatternType"}
+  "type": "String"
 }
 
 ```

@@ -15,22 +15,21 @@ Here is a JSON representation of the resource
   ],
   "@odata.type": "microsoft.graph.useridcollection"
 }-->
-
 ```json
 {
   "String-value": true
 }
 ```
-```json
+
 // Example
+```json
 {
   "400723e1-102b-43aa-aba9-f35524827084": true, // property name is user id
   "f117339e-c914-4a9c-9b66-1c062b027556": true,
   "e886d105-23b9-47e2-bde1-757e75ee4a28": true
 }
 
-```
-### Properties
+```### Properties
 Properties of an Open Type can be defined by the client. In this case, the client should provide user ids as properties with their values being the `true` boolean. When user ids are no longer shared with, properties are automatically removed by setting their values to the `false` boolean.
 
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79

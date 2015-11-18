@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "content": "string",
-  "contentType": {"@odata.type": "microsoft.graph.bodyType"}
+  "contentType": "String"
 }
 
 ```

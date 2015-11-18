@@ -44,8 +44,8 @@ Here is a JSON representation of the resource
   "prepaidUnits": {"@odata.type": "microsoft.graph.licenseUnitsDetail"},
   "servicePlans": [{"@odata.type": "microsoft.graph.servicePlanInfo"}],
   "skuId": "guid",
-  "skuPartNumber": "string"
-  "appliesTo":"string"
+  "skuPartNumber": "string",
+  "appliesTo": "string"
 }
 
 ```

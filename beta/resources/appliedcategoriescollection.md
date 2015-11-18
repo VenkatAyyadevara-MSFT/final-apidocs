@@ -22,16 +22,17 @@ Here is a JSON representation of the resource
   "String-value": true
 }
 ```
-```json
-// Example
 
+Example: 
+
+```json
 {
   "category0": true,
   "category3": true,
   "category5": true
 }
-
 ```
+
 ### Properties
 Properties of an Open Type can be defined by the client. In this case though, the client must provide `category0`, `category1`, `category3`, `category4` and/or `category5` as properties with their values being the `true` boolean when the corresponding categories are applied on the task. Example is shown above. When they do not apply, properties are automatically removed by setting their values to the `false` boolean. 
 

@@ -16,6 +16,7 @@ Here is a JSON representation of the resource
   "@odata.type": "microsoft.graph.externalreferencecollection"
 }-->
 
+
 ```json
 {
   "String-value":
@@ -29,9 +30,9 @@ Here is a JSON representation of the resource
 }
 ```
 
-```json
 // Example
 
+```json
 {
   "https%3A//contoso%2Esharepoint%2Ecom/teams/agile/documents/AnnualReport%2Epptx":
   {
@@ -45,6 +46,7 @@ Here is a JSON representation of the resource
 }
 
 ```
+
 ### Properties
 Properties of an Open Type can be defined by the client. In this case, the client must provide **valid URLs** based on the **HTTP/HTTPS** protocols as properties and their values must be the [externalReference](externalreference.md) objects. Based on OData, property names in Open Types cannot contain the following characters: `.`, `:`, `%`  so they need to be encoded. Example is shown above. To remove a reference, set the value of the property to `null`
 

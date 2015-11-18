@@ -16,7 +16,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "activityDomain": {"@odata.type": "microsoft.graph.activityDomain"},
+  "activityDomain": "String",
   "timeslots": [{"@odata.type": "microsoft.graph.timeSlot"}]
 }
 

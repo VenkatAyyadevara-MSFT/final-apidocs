@@ -16,7 +16,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "response": {"@odata.type": "microsoft.graph.responseType"},
+  "response": "String",
   "time": "String (timestamp)"
 }
 
