@@ -34,7 +34,7 @@ Here is a JSON representation of the resource
 |isSyncedFromOnPremises|Boolean|Indicates whether the extension property is synced from the on premises directory.                            **Notes**: not nullable.            |
 |name|String|Specifies the display name for the directory extension property.                            **Notes**: not nullable.            |
 |id|String|The unique identifier for the permission scope. Inherited from [directoryObject].                            **Notes**: **key**, immutable, not nullable, unique.             Read-only.|
-|targetObjects|String collection|The directory objects to which the directory extension property is being added.  Supported directory entities that can be extended are: “User”, “Group”, “TenantDetail”, “Device”, “Application” and “ServicePrincipal”                            **Notes**: not nullable.            |
+|targetObjects|String collection|The directory objects to which the directory extension property is being added.  Supported directory entities that can be extended are: “User”, “Group”, “organization”, “Device”, “Application” and “ServicePrincipal”                            **Notes**: not nullable.            |
 
 ### Relationships
 None

@@ -1,18 +1,18 @@
-# Delete share
+# Delete organization
 
-Delete share.
+Delete organization.
 ### Prerequisites
 The following **scopes** are required to execute this API: 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /shares/<id>
+DELETE /organization/<objectId>
 
 ```
 ### Request headers
 | Name       | Type | Description|
 |:---------------|:--------|:----------|
-| X-Sample-Header  | string  | Sample HTTP header. Update accordingly or remove if not needed|
+| Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
 Do not supply a request body for this method.
@@ -26,16 +26,16 @@ If successful, this method returns `204, No Content` response code. It does not 
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "delete_share"
+  "name": "delete_organization"
 }-->
 ```http
-DELETE https://graph.microsoft.com/v1.0/shares/<id>
+DELETE https://graph.microsoft.com/beta/organization/<objectId>
 ```
 ##### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response.
 <!-- {
   "blockType": "response",
-  "truncated": true
+  "truncated": false
 } -->
 ```http
 HTTP/1.1 204 No Content
@@ -45,7 +45,7 @@ HTTP/1.1 204 No Content
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Delete share",
+  "description": "Delete organization",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

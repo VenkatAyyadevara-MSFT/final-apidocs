@@ -1,4 +1,4 @@
-# appRoleAssignment: getMemberGroups
+# organization: getMemberGroups
 
 
 ### Prerequisites
@@ -6,9 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/appRoleAssignments/<objectId>/Microsoft.Graph.getMemberGroups
-POST /servicePrincipals/<objectId>/appRoleAssignedTo/Microsoft.Graph.getMemberGroups
-POST /groups/<objectId>/appRoleAssignments/<objectId>/Microsoft.Graph.getMemberGroups
+POST /organization/<objectId>/Microsoft.Graph.getMemberGroups
 
 ```
 ### Request headers
@@ -32,10 +30,10 @@ Here is an example of how to call this API.
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "approleassignment_getmembergroups"
+  "name": "organization_getmembergroups"
 }-->
 ```http
-POST https://graph.microsoft.com/beta/users/<objectId>/appRoleAssignments/<objectId>/Microsoft.Graph.getMemberGroups
+POST https://graph.microsoft.com/beta/organization/<objectId>/Microsoft.Graph.getMemberGroups
 Content-type: application/json
 Content-length: 33
 
@@ -68,7 +66,7 @@ Content-length: 39
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "appRoleAssignment: getMemberGroups",
+  "description": "organization: getMemberGroups",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

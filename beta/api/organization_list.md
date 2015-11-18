@@ -1,12 +1,12 @@
-# List tenantDetails
+# List organization
 
-Retrieve a list of tenantdetail objects.
+Retrieve a list of organization objects.
 ### Prerequisites
 The following **scopes** are required to execute this API: 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /tenantDetails
+GET /organization
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
@@ -19,23 +19,23 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and collection of [TenantDetail](../resources/tenantdetail.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and collection of [organization](../resources/organization.md) objects in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "get_tenantdetails"
+  "name": "get_organization"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/tenantDetails
+GET https://graph.microsoft.com/beta/organization
 ```
 ##### Response
 Here is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": false,
-  "@odata.type": "microsoft.graph.tenantdetail",
+  "@odata.type": "microsoft.graph.organization",
   "isCollection": true
 } -->
 ```http
@@ -114,7 +114,7 @@ Content-length: 1912
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "List tenantDetails",
+  "description": "List organization",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
