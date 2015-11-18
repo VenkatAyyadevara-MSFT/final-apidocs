@@ -16,7 +16,8 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "status": {"@odata.type": "microsoft.graph.responseStatus"}
+  "status": {"@odata.type": "microsoft.graph.responseStatus"},
+  "type": {"@odata.type": "microsoft.graph.attendeeType"}
 }
 
 ```

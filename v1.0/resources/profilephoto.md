@@ -35,9 +35,9 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "height": 1024,
-  "id": "string (identifier)",
-  "width": 1024
+  "id": "240X240",
+  "height": 240,
+  "width": 240
 }
 
 ```
