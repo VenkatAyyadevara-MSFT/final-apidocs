@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /users/<objectId>/calendar
+PATCH /users/<id | userPrincipalName>/calendar
 PATCH /groups/<objectId>/calendar
 PATCH /drive/root/createdByUser/calendar
 ```

@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/events
+GET /users/<id | userPrincipalName>/events
 GET /drive/root/createdByUser/events
 GET /drive/root/lastModifiedByUser/events
 ```

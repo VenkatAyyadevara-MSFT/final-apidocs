@@ -8,7 +8,7 @@ The following **scopes** are required to execute this API:
 ```http
 POST /groups/<objectId>/threads/<id>/posts/<id>/forward
 POST /groups/<objectId>/conversations/<id>/threads/<id>/posts/<id>/forward
-POST /users/<objectId>/joinedGroups/<objectId>/threads/<id>/posts/<id>/forward
+POST /users/<id | userPrincipalName>/joinedGroups/<objectId>/threads/<id>/posts/<id>/forward
 
 ```
 ### Request headers

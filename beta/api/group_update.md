@@ -7,7 +7,7 @@ The following **scopes** are required to execute this API:
 <!-- { "blockType": "ignored" } -->
 ```http
 PATCH /groups/<objectId>
-PATCH /users/<objectId>/joinedGroups/<objectId>
+PATCH /users/<id | userPrincipalName>/joinedGroups/<objectId>
 PATCH /drive/root/createdByUser/joinedGroups/<objectId>
 ```
 ### Request headers

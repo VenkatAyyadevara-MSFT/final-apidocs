@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /users/<objectId>/inferenceClassification
+DELETE /users/<id | userPrincipalName>/inferenceClassification
 DELETE /drive/root/createdByUser/inferenceClassification
 DELETE /drive/root/lastModifiedByUser/inferenceClassification
 

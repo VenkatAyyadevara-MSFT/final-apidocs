@@ -8,7 +8,7 @@ The following **scopes** are required to execute this API:
 ```http
 GET /groups/<objectId>/threads/<id>/posts/<id>/extensions
 GET /groups/<objectId>/conversations/<id>/threads/<id>/posts/<id>/extensions
-GET /users/<objectId>/joinedGroups/<objectId>/threads/<id>/posts/<id>/extensions
+GET /users/<id | userPrincipalName>/joinedGroups/<objectId>/threads/<id>/posts/<id>/extensions
 ```
 ### Optional query parameters
 This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.

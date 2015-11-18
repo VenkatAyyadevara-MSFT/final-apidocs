@@ -14,7 +14,7 @@ Notes.Create, Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, or Notes.ReadWrite.
 ```http
 POST /me/notes/pages
 POST /users/<mail>/notes/pages
-POST /users/<objectId>/notes/pages
+POST /users/<id | userPrincipalName>/notes/pages
 POST /groups/<objectId>/notes/pages
 ```
 

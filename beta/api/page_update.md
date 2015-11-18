@@ -9,7 +9,7 @@ Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, or Notes.ReadWrite.All
 ```http
 PATCH /me/notes/pages/<id>
 PATCH /users/<mail>/notes/pages/<id>
-PATCH /users/<objectId>/notes/pages/<id>
+PATCH /users/<id | userPrincipalName>/notes/pages/<id>
 PATCH /groups/<objectId>/notes/pages/<id>
 ```
 ### Request headers

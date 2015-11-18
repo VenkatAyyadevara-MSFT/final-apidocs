@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /users/<objectId>/inferenceClassification/overrides/<id>
+PATCH /users/<id | userPrincipalName>/inferenceClassification/overrides/<id>
 PATCH /drive/root/createdByUser/inferenceClassification/overrides/<id>
 PATCH /drive/root/lastModifiedByUser/inferenceClassification/overrides/<id>
 ```

@@ -11,7 +11,7 @@ Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, or Notes.ReadWrite.All
 ```http
 POST /me/notes/sections/<id>/Microsoft.Graph.copyToSectionGroup
 POST /users/<mail>/notes/sections/<id>/Microsoft.Graph.copyToSectionGroup
-POST /users/<objectId>/notes/sections/<id>/Microsoft.Graph.copyToSectionGroup
+POST /users/<id | userPrincipalName>/notes/sections/<id>/Microsoft.Graph.copyToSectionGroup
 POST /groups/<objectId>/notes/sections/<id>/Microsoft.Graph.copyToSectionGroup
 ```
 ### Request headers

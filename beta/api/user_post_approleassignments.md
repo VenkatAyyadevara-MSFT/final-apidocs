@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/appRoleAssignments
+POST /users/<id | userPrincipalName>/appRoleAssignments
 POST /drive/root/createdByUser/appRoleAssignments
 POST /drive/root/lastModifiedByUser/appRoleAssignments
 
@@ -31,7 +31,7 @@ Here is an example of the request.
   "name": "create_approleassignment_from_user"
 }-->
 ```http
-POST https://graph.microsoft.com/beta/users/<objectId>
+POST https://graph.microsoft.com/beta/users/<id | userPrincipalName>
 ```
 In the request body, supply a JSON representation of [appRoleAssignment](../resources/approleassignment.md) object.
 ##### Response
