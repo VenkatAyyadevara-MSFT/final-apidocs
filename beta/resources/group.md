@@ -56,7 +56,7 @@ Here is a JSON representation of the resource
 
 ```
 ### Properties
-| Property	   | Type	|Description|
+| Property     | Type |Description|
 |:---------------|:--------|:----------|
 |accessType|String| Possible values are: `None`, `Private`, `Secret`, `Public`.|
 |allowExternalSenders|Boolean||
@@ -79,7 +79,7 @@ Here is a JSON representation of the resource
 |unseenCount|Int32||
 
 ### Relationships
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |acceptedSenders|[directoryObject](directoryobject.md) collection| Read-only. Nullable.|
 |calendar|[Calendar](calendar.md)| Read-only.|
@@ -100,7 +100,7 @@ Here is a JSON representation of the resource
 
 ### Methods
 
-| Method		   | Return Type	|Description|
+| Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[Get group](../api/group_get.md) | [group](group.md) |Read properties and relationships of group object.|
 |[Create acceptedSender](../api/group_post_acceptedsenders.md) |[directoryObject](directoryobject.md)| Create a new acceptedSender by posting to the acceptedSenders collection.|
@@ -126,7 +126,7 @@ Here is a JSON representation of the resource
 |[List rejectedSenders](../api/group_list_rejectedsenders.md) |[directoryObject](directoryobject.md) collection| Get a rejectedSender object collection.|
 |[Create thread](../api/group_post_threads.md) |[ConversationThread](conversationthread.md)| Create a new thread by posting to the threads collection.|
 |[List threads](../api/group_list_threads.md) |[ConversationThread](conversationthread.md) collection| Get a thread object collection.|
-|[Update](../api/group_update.md) | [group](group.md)	|Update group object. |
+|[Update](../api/group_update.md) | [group](group.md) |Update group object. |
 |[Delete](../api/group_delete.md) | None |Delete group object. |
 |[Checkmembergroups](../api/group_checkmembergroups.md)|String collection||
 |[Get MemberGroups](../api/group_getmembergroups.md)|String collection||

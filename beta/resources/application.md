@@ -47,7 +47,7 @@ Here is a JSON representation of the resource
 
 ```
 ### Properties
-| Property	   | Type	|Description|
+| Property     | Type |Description|
 |:---------------|:--------|:----------|
 |appId|String|The unique identifier for the application.|
 |appRoles|[appRole](approle.md) collection|The collection of application roles that an application may declare. These roles can be assigned to users, groups or service principals. Not nullable.|
@@ -73,7 +73,7 @@ Here is a JSON representation of the resource
 |samlMetadataUrl|String|The URL to the SAML metadata for the application.|
 
 ### Relationships
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |createdOnBehalfOf|[directoryObject](directoryobject.md)| Read-only.|
 |extensionProperties|[extensionProperty](extensionproperty.md) collection|The extension properties associated with the application. Read-only. Nullable.|
@@ -81,14 +81,14 @@ Here is a JSON representation of the resource
 
 ### Methods
 
-| Method		   | Return Type	|Description|
+| Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[Get application](../api/application_get.md) | [application](application.md) |Read properties and relationships of application object.|
 |[Create extensionProperty](../api/application_post_extensionproperties.md) |[extensionProperty](extensionproperty.md)| Create a new extensionProperty by posting to the extensionProperties collection.|
 |[List extensionProperties](../api/application_list_extensionproperties.md) |[extensionProperty](extensionproperty.md) collection| Get a extensionProperty object collection.|
 |[Create owner](../api/application_post_owners.md) |[directoryObject](directoryobject.md)| Create a new owner by posting to the owners collection.|
 |[List owners](../api/application_list_owners.md) |[directoryObject](directoryobject.md) collection| Get a owner object collection.|
-|[Update](../api/application_update.md) | [application](application.md)	|Update application object. |
+|[Update](../api/application_update.md) | [application](application.md) |Update application object. |
 |[Delete](../api/application_delete.md) | None |Delete application object. |
 |[restore](../api/application_restore.md)|[application](application.md)||
 

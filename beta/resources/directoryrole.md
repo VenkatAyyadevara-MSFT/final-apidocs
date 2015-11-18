@@ -28,7 +28,7 @@ Here is a JSON representation of the resource
 
 ```
 ### Properties
-| Property	   | Type	|Description|
+| Property     | Type |Description|
 |:---------------|:--------|:----------|
 |description|String|The description for the directory role.|
 |displayName|String|The display name for the directory role. |
@@ -36,13 +36,13 @@ Here is a JSON representation of the resource
 |roleTemplateId|String|                The **objectId** of the [DirectoryRoleTemplate] that this role is based on.                                        **Notes**: In versions prior to version 1.5, the property is read only. In version 1.5 and later, the property must be specified when activating a directory role in a tenant with a POST operation. After the directory role has been activated, the property is read only.            |
 
 ### Relationships
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |members|[directoryObject](directoryobject.md) collection|Users and service principals that are members of this directory role. Inherited from [directoryObject].            HTTP Methods: GET, POST, DELETE Read-only. Nullable.|
 
 ### Methods
 
-| Method		   | Return Type	|Description|
+| Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[Get directoryRole](../api/directoryrole_get.md) | [directoryRole](directoryrole.md) |Read properties and relationships of directoryRole object.|
 |[Create memberOf](../api/directoryrole_post_memberof.md) |[directoryObject](directoryobject.md)| Create a new memberOf by posting to the memberOf collection.|
@@ -53,7 +53,7 @@ Here is a JSON representation of the resource
 |[List ownedObjects](../api/directoryrole_list_ownedobjects.md) |[directoryObject](directoryobject.md) collection| Get a ownedObject object collection.|
 |[Create owner](../api/directoryrole_post_owners.md) |[directoryObject](directoryobject.md)| Create a new owner by posting to the owners collection.|
 |[List owners](../api/directoryrole_list_owners.md) |[directoryObject](directoryobject.md) collection| Get a owner object collection.|
-|[Update](../api/directoryrole_update.md) | [directoryRole](directoryrole.md)	|Update directoryRole object. |
+|[Update](../api/directoryrole_update.md) | [directoryRole](directoryrole.md) |Update directoryRole object. |
 |[Delete](../api/directoryrole_delete.md) | None |Delete directoryRole object. |
 |[checkMemberGroups](../api/directoryrole_checkmembergroups.md)|String collection||
 |[getMemberGroups](../api/directoryrole_getmembergroups.md)|String collection||
