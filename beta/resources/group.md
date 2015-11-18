@@ -45,7 +45,7 @@ Here is a JSON representation of the resource
   "mail": "string",
   "mailEnabled": true,
   "mailNickname": "string",
-  "onPremisesLastSyncDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "onPremisesLastSyncDateTime": "String (timestamp)",
   "onPremisesSecurityIdentifier": "string",
   "onPremisesSyncEnabled": true,
   "proxyAddresses": ["string"],

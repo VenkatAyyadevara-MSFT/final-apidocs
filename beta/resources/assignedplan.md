@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "assignedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "assignedDateTime": "String (timestamp)",
   "capabilityStatus": "string",
   "service": "string",
   "servicePlanId": "guid"

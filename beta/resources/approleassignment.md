@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "creationTimestamp": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "creationTimestamp": "String (timestamp)",
   "id": "guid (identifier)",
   "principalDisplayName": "string",
   "principalId": "guid",

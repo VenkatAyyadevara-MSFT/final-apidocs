@@ -16,10 +16,10 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdDateTime": "String (timestamp)",
   "error": {"@odata.type": "microsoft.graph.notesOperationError"},
   "id": "string (identifier)",
-  "lastActionDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastActionDateTime": "String (timestamp)",
   "resourceId": "string",
   "resourceLocation": "string",
   "status": "string"

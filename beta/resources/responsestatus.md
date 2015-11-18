@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "response": {"@odata.type": "microsoft.graph.responseType"},
-  "time": {"@odata.type": "microsoft.graph.dateTimeOffset"}
+  "time": "String (timestamp)"
 }
 
 ```

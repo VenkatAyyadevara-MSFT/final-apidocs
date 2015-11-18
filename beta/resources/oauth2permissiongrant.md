@@ -19,12 +19,12 @@ Here is a JSON representation of the resource
 {
   "clientId": "string",
   "consentType": "string",
-  "expiryTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "expiryTime": "String (timestamp)",
   "id": "string (identifier)",
   "principalId": "string",
   "resourceId": "string",
   "scope": "string",
-  "startTime": {"@odata.type": "microsoft.graph.dateTimeOffset"}
+  "startTime": "String (timestamp)"
 }
 
 ```

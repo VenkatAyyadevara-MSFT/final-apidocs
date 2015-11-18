@@ -36,8 +36,8 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"}
+  "createdDateTime": "String (timestamp)",
+  "lastModifiedDateTime": "String (timestamp)"
 }
 
 ```

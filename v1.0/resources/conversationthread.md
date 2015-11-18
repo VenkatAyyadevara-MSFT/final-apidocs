@@ -51,7 +51,7 @@ Here is a JSON representation of the resource
   "ccRecipients": [{"@odata.type": "microsoft.graph.recipient"}],
   "topic": "string",
   "hasAttachments": true,
-  "lastDeliveredDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastDeliveredDateTime": "String (timestamp)",
   "uniqueSenders": ["string"],
   "preview": "string",
   "isLocked": true

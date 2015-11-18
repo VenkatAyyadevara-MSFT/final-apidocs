@@ -18,7 +18,7 @@ Here is a JSON representation of the resource
 {
   "alias": "string",
   "lastModifiedBy": "string",
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedDateTime": "String (timestamp)",
   "previewPriority": "string",
   "type": "string"
 }
