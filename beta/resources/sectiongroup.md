@@ -20,9 +20,11 @@ Here is a JSON representation of the resource.
 ```json
 {
   "createdBy": "string",
+  "createdByIdentity": {"@odata.type": "microsoft.graph.oneNoteIdentitySet"},
   "createdTime": "String (timestamp)",
   "id": "string (identifier)",
   "lastModifiedBy": "string",
+  "lastModifiedByIdentity": {"@odata.type": "microsoft.graph.oneNoteIdentitySet"},
   "lastModifiedTime": "String (timestamp)",
   "name": "string",
   "sectionGroupsUrl": "string",

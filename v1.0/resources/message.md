@@ -98,7 +98,7 @@ Here is a JSON representation of the resource
   "from": {"@odata.type": "microsoft.graph.recipient"},
   "hasAttachments": true,
   "id": "string (identifier)",
-  "importance": {"@odata.type": "microsoft.graph.importance"},
+  "importance": "String",
   "isDeliveryReceiptRequested": true,
   "isDraft": true,
   "isRead": true,

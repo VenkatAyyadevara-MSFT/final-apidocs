@@ -45,7 +45,6 @@ Here is a JSON representation of the resource
   "servicePlans": [{"@odata.type": "microsoft.graph.servicePlanInfo"}],
   "skuId": "guid",
   "skuPartNumber": "string"
-  "appliesTo":"string"
 }
 
 ```

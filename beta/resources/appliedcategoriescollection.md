@@ -19,16 +19,11 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "String-value": true
 }
+
 ```
 ```json
-// Example
-
 {
-  "category0": true,
-  "category3": true,
-  "category5": true
 }
 
 ```

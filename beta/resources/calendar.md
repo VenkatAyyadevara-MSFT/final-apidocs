@@ -18,7 +18,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "changeKey": "string",
-  "color": {"@odata.type": "microsoft.graph.calendarColor"},
+  "color": "String",
   "id": "string (identifier)",
   "name": "string"
 }

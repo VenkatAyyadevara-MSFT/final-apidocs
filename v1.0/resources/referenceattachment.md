@@ -49,13 +49,9 @@ Here is a JSON representation of the resource
   "isInline": true,
   "lastModifiedDateTime": "String (timestamp)",
   "name": "string",
-  "size": 1024,
-  "SourceUrl": "string",
-  "ProviderType": "ReferenceAttachmentProviders-value",
-  "ThumbnailUrl": "string",
-  "PreviewUrl": "ReferenceAttachmentPermissions",
-  "IsFolder": "Boolean" 
+  "size": 1024
 }
+
 ```
 
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79

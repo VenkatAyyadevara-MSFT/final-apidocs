@@ -29,7 +29,7 @@ Here is a JSON representation of the resource
   "hasAttachments": true,
   "iCalUId": "string",
   "id": "string (identifier)",
-  "importance": {"@odata.type": "microsoft.graph.importance"},
+  "importance": "String",
   "isAllDay": true,
   "isCancelled": true,
   "isOrganizer": true,
@@ -44,12 +44,12 @@ Here is a JSON representation of the resource
   "reminderMinutesBeforeStart": 1024,
   "responseRequested": true,
   "responseStatus": {"@odata.type": "microsoft.graph.responseStatus"},
-  "sensitivity": {"@odata.type": "microsoft.graph.sensitivity"},
+  "sensitivity": "String",
   "seriesMasterId": "string",
-  "showAs": {"@odata.type": "microsoft.graph.freeBusyStatus"},
+  "showAs": "String",
   "start": {"@odata.type": "microsoft.graph.dateTimeTimeZone"},
   "subject": "string",
-  "type": {"@odata.type": "microsoft.graph.eventType"},
+  "type": "String",
   "webLink": "string"
 }
 

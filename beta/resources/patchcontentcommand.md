@@ -16,9 +16,9 @@ Here is a JSON representation of the resource, which is sent in the body of the 
 
 ```json
 {
-  "action": {"@odata.type": "microsoft.graph.patchActionType"},
+  "action": "String",
   "content": "string",
-  "position": {"@odata.type": "microsoft.graph.patchInsertPosition"},
+  "position": "String",
   "target": "string"
 }
 
