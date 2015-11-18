@@ -1,12 +1,12 @@
-# Update tenantdetail
+# Update organization
 
-Update the properties of tenantdetail object.
+Update the properties of organization object.
 ### Prerequisites
 The following **scopes** are required to execute this API: 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /tenantDetails/<objectId>
+PATCH /organization/<objectId>
 ```
 ### Request headers
 | Name       | Type | Description|
@@ -41,16 +41,16 @@ In the request body, supply the values for relevant fields that should be update
 |verifiedDomains|VerifiedDomain|The collection of domains associated with this tenant.                            **Notes**: not nullable.            |
 
 ### Response
-If successful, this method returns a `200 OK` response code and updated [tenantDetail](../resources/tenantdetail.md) object in the response body.
+If successful, this method returns a `200 OK` response code and updated [organization](../resources/organization.md) object in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "update_tenantdetail"
+  "name": "update_organization"
 }-->
 ```http
-PATCH https://graph.microsoft.com/beta/tenantDetails/<objectId>
+PATCH https://graph.microsoft.com/beta/organization/<objectId>
 Content-type: application/json
 Content-length: 1647
 
@@ -121,7 +121,7 @@ Here is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": false,
-  "@odata.type": "microsoft.graph.tenantdetail"
+  "@odata.type": "microsoft.graph.organization"
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -195,7 +195,7 @@ Content-length: 1647
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Update tenantdetail",
+  "description": "Update organization",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

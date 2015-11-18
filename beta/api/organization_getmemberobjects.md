@@ -1,4 +1,4 @@
-# tenantDetail: getMemberGroups
+# organization: getMemberObjects
 
 
 ### Prerequisites
@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /tenantDetails/<objectId>/Microsoft.Graph.getMemberGroups
+POST /organization/<objectId>/Microsoft.Graph.getMemberObjects
 
 ```
 ### Request headers
@@ -30,10 +30,10 @@ Here is an example of how to call this API.
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "tenantdetail_getmembergroups"
+  "name": "organization_getmemberobjects"
 }-->
 ```http
-POST https://graph.microsoft.com/beta/tenantDetails/<objectId>/Microsoft.Graph.getMemberGroups
+POST https://graph.microsoft.com/beta/organization/<objectId>/Microsoft.Graph.getMemberObjects
 Content-type: application/json
 Content-length: 33
 
@@ -66,7 +66,7 @@ Content-length: 39
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "tenantDetail: getMemberGroups",
+  "description": "organization: getMemberObjects",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

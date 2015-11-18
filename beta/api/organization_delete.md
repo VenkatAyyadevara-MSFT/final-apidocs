@@ -1,12 +1,12 @@
-# Delete tenantDetail
+# Delete organization
 
-Delete tenantDetail.
+Delete organization.
 ### Prerequisites
 The following **scopes** are required to execute this API: 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /tenantDetails/<objectId>
+DELETE /organization/<objectId>
 
 ```
 ### Request headers
@@ -26,10 +26,10 @@ If successful, this method returns `204, No Content` response code. It does not 
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "delete_tenantdetail"
+  "name": "delete_organization"
 }-->
 ```http
-DELETE https://graph.microsoft.com/beta/tenantDetails/<objectId>
+DELETE https://graph.microsoft.com/beta/organization/<objectId>
 ```
 ##### Response
 Here is an example of the response.
@@ -45,7 +45,7 @@ HTTP/1.1 204 No Content
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Delete tenantDetail",
+  "description": "Delete organization",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

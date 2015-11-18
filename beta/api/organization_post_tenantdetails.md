@@ -1,44 +1,46 @@
-# Get tenantDetail
+# Create organization
 
-Retrieve the properties and relationships of tenantdetail object.
+Use this API to create a new organization.
 ### Prerequisites
 The following **scopes** are required to execute this API: 
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /tenantDetails/<objectId>
-```
-### Optional query parameters
-This method supports the [OData Query Parameters](http://graph.microsoft.io/docs/overview/query_parameters) to help customize the response.
+POST /tasks
 
+```
 ### Request headers
 | Name       | Type | Description|
-|:-----------|:------|:----------|
+|:---------------|:--------|:----------|
 | Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
-Do not supply a request body for this method.
+In the request body, supply a JSON representation of [organization](../resources/organization.md) object.
+
+
 ### Response
-If successful, this method returns a `200 OK` response code and [tenantDetail](../resources/tenantdetail.md) object in the response body.
+If successful, this method returns `201, Created` response code and [organization](../resources/organization.md) object in the response body.
+
 ### Example
 ##### Request
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "get_tenantdetail"
+  "name": "create_organization_from_tasks"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/tenantDetails/<objectId>
+POST https://graph.microsoft.com/beta/tasks
 ```
+In the request body, supply a JSON representation of [organization](../resources/organization.md) object.
 ##### Response
 Here is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": false,
-  "@odata.type": "microsoft.graph.tenantdetail"
+  "@odata.type": "microsoft.graph.organization"
 } -->
 ```http
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 Content-type: application/json
 Content-length: 1647
 
@@ -109,7 +111,7 @@ Content-length: 1647
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "Get tenantDetail",
+  "description": "Create organization",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""

@@ -1,4 +1,4 @@
-# tenantDetail resource type
+# organization resource type
 
 Represents an Azure Active Directory tenant. Only the read and update operations are supported on tenants; create and delete are not supported. Inherits from [directoryObject].
 
@@ -12,7 +12,7 @@ Here is a JSON representation of the resource
   "optionalProperties": [
 
   ],
-  "@odata.type": "microsoft.graph.tenantdetail"
+  "@odata.type": "microsoft.graph.organization"
 }-->
 
 ```json
@@ -73,18 +73,18 @@ None
 
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
-|[Get tenantDetail](../api/tenantdetail_get.md) | [tenantDetail](tenantdetail.md) |Read properties and relationships of tenantDetail object.|
-|[Update](../api/tenantdetail_update.md) | [tenantDetail](tenantdetail.md)	|Update tenantDetail object. |
-|[Delete](../api/tenantdetail_delete.md) | None |Delete tenantDetail object. |
-|[checkMemberGroups](../api/tenantdetail_checkmembergroups.md)|String collection||
-|[getMemberGroups](../api/tenantdetail_getmembergroups.md)|String collection||
-|[getMemberObjects](../api/tenantdetail_getmemberobjects.md)|String collection||
+|[Get organization](../api/organization_get.md) | [organization](organization.md) |Read properties and relationships of organization object.|
+|[Update](../api/organization_update.md) | [organization](organization.md)	|Update organization object. |
+|[Delete](../api/organization_delete.md) | None |Delete organization object. |
+|[checkMemberGroups](../api/organization_checkmembergroups.md)|String collection||
+|[getMemberGroups](../api/organization_getmembergroups.md)|String collection||
+|[getMemberObjects](../api/organization_getmemberobjects.md)|String collection||
 
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!-- {
   "type": "#page.annotation",
-  "description": "tenantDetail resource",
+  "description": "organization resource",
   "keywords": "",
   "section": "documentation",
   "tocPath": ""
