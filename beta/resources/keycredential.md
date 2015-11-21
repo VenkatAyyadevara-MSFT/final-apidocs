@@ -1,6 +1,6 @@
 # keyCredential resource type
 
-Contains a key credential associated with an application or a service principal. The **keyCredentials** property of the [application](application.md) and [servicePrincipal](serviceprincipal.md) entities is a collection of **KeyCredential**.
+Contains a key credential associated with an application or a service principal. The **keyCredentials** property of the [application](application.md) and [servicePrincipal](serviceprincipal.md) entities is a collection of **keyCredential**.
 
 
 ### JSON representation
@@ -18,9 +18,9 @@ Here is a JSON representation of the resource
 ```json
 {
   "customKeyIdentifier": "binary",
-  "endDate": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "endDate": "String (timestamp)",
   "keyId": "guid",
-  "startDate": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "startDate": "String (timestamp)",
   "type": "string",
   "usage": "string",
   "value": "binary"

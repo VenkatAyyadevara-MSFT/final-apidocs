@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/registeredDevices
+POST /users/<id | userPrincipalName>/registeredDevices
 POST /drive/root/createdByUser/registeredDevices
 POST /drive/root/lastModifiedByUser/registeredDevices
 
@@ -17,11 +17,11 @@ POST /drive/root/lastModifiedByUser/registeredDevices
 | Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
-In the request body, supply a JSON representation of [directoryObject}(../resources/directoryobject.md) object.
+In the request body, supply a JSON representation of [directoryObject](../resources/directoryobject.md) object.
 
 
 ### Response
-If successful, this method returns `201, Created` response code and [directoryObject}(../resources/directoryobject.md) object in the response body.
+If successful, this method returns `201, Created` response code and [directoryObject](../resources/directoryobject.md) object in the response body.
 
 ### Example
 ##### Request

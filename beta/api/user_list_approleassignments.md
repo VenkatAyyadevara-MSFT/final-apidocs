@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /users/<objectId>/appRoleAssignments
+GET /users/<id | userPrincipalName>/appRoleAssignments
 GET /drive/root/createdByUser/appRoleAssignments
 GET /drive/root/lastModifiedByUser/appRoleAssignments
 ```
@@ -21,7 +21,7 @@ This method supports the [OData Query Parameters](http://graph.microsoft.io/docs
 ### Request body
 Do not supply a request body for this method.
 ### Response
-If successful, this method returns a `200 OK` response code and collection of [AppRoleAssignment](../resources/approleassignment.md) objects in the response body.
+If successful, this method returns a `200 OK` response code and collection of [appRoleAssignment](../resources/approleassignment.md) objects in the response body.
 ### Example
 ##### Request
 Here is an example of the request.
@@ -30,7 +30,7 @@ Here is an example of the request.
   "name": "get_approleassignments"
 }-->
 ```http
-GET https://graph.microsoft.com/beta/users/<objectId>/appRoleAssignments
+GET https://graph.microsoft.com/beta/users/<id | userPrincipalName>/appRoleAssignments
 ```
 ##### Response
 Here is an example of the response.

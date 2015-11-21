@@ -23,13 +23,13 @@ Here is a JSON representation of the resource
   "changeKey": "string",
   "conversationId": "string",
   "conversationThreadId": "string",
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdDateTime": "String (timestamp)",
   "from": {"@odata.type": "microsoft.graph.recipient"},
   "hasAttachments": true,
   "id": "string (identifier)",
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedDateTime": "String (timestamp)",
   "newParticipants": [{"@odata.type": "microsoft.graph.recipient"}],
-  "receivedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "receivedDateTime": "String (timestamp)",
   "sender": {"@odata.type": "microsoft.graph.recipient"}
 }
 

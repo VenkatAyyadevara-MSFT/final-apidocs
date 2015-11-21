@@ -102,6 +102,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
+  "accessType": "String",
   "allowExternalSenders": true,
   "autoSubscribeNewMembers": true,
   "description": "string",
@@ -112,7 +113,7 @@ Here is a JSON representation of the resource
   "mail": "string",
   "mailEnabled": true,
   "mailNickname": "string",
-  "onPremisesLastSyncDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "onPremisesLastSyncDateTime": "String (timestamp)",
   "onPremisesSecurityIdentifier": "string",
   "onPremisesSyncEnabled": true,
   "proxyAddresses": ["string"],

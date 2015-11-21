@@ -41,9 +41,9 @@ Here is a JSON representation of the resource
 {
   "categories": ["string"],
   "changeKey": "string",
-  "createdDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "createdDateTime": "String (timestamp)",
   "id": "string (identifier)",
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"}
+  "lastModifiedDateTime": "String (timestamp)"
 }
 
 ```

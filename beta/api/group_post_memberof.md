@@ -7,7 +7,7 @@ The following **scopes** are required to execute this API:
 <!-- { "blockType": "ignored" } -->
 ```http
 POST /groups/<objectId>/memberOf
-POST /users/<objectId>/joinedGroups/<objectId>/memberOf
+POST /users/<id | userPrincipalName>/joinedGroups/<objectId>/memberOf
 POST /drive/root/createdByUser/joinedGroups/<objectId>/memberOf
 
 ```
@@ -17,11 +17,11 @@ POST /drive/root/createdByUser/joinedGroups/<objectId>/memberOf
 | Authorization  | string  | Bearer <token>. Required. |
 
 ### Request body
-In the request body, supply a JSON representation of [directoryObject}(../resources/directoryobject.md) object.
+In the request body, supply a JSON representation of [directoryObject](../resources/directoryobject.md) object.
 
 
 ### Response
-If successful, this method returns `201, Created` response code and [directoryObject}(../resources/directoryobject.md) object in the response body.
+If successful, this method returns `201, Created` response code and [directoryObject](../resources/directoryobject.md) object in the response body.
 
 ### Example
 ##### Request

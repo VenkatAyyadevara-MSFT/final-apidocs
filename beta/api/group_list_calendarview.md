@@ -7,7 +7,7 @@ The following **scopes** are required to execute this API:
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /groups/<objectId>/calendarView
-GET /users/<objectId>/joinedGroups/<objectId>/calendarView
+GET /users/<id | userPrincipalName>/joinedGroups/<objectId>/calendarView
 GET /drive/root/createdByUser/joinedGroups/<objectId>/calendarView
 ```
 ### Optional query parameters

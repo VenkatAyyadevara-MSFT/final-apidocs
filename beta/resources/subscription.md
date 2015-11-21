@@ -20,7 +20,7 @@ Here is a JSON representation of the resource.
   "clientState": "string",
   "notificationUrl": "string",
   "resource": "string",
-  "subscriptionExpirationDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "subscriptionExpirationDateTime": "String (timestamp)",
   "subscriptionId": "string (identifier)"
 }
 

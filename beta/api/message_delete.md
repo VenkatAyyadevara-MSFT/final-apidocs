@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /users/<objectId>/messages/<id>
+DELETE /users/<id | userPrincipalName>/messages/<id>
 DELETE /drive/root/createdByUser/messages/<id>
 DELETE /drive/root/lastModifiedByUser/messages/<id>
 

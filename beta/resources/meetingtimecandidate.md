@@ -20,7 +20,7 @@ Here is a JSON representation of the resource
   "confidence": 1024,
   "locations": [{"@odata.type": "microsoft.graph.location"}],
   "meetingTimeSlot": {"@odata.type": "microsoft.graph.timeSlot"},
-  "organizerAvailability": {"@odata.type": "microsoft.graph.freeBusyStatus"},
+  "organizerAvailability": "String",
   "score": 1024
 }
 

@@ -16,7 +16,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "expirationDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "expirationDateTime": "String (timestamp)",
   "nextExpectedRanges": ["string"],
   "uploadUrl": "string"
 }

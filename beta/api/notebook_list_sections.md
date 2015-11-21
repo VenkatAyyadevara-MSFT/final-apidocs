@@ -9,7 +9,7 @@ Notes.Read, Notes.ReadWrite.CreatedByApp, Notes.ReadWrite, Notes.Read.All, or No
 ```http
 GET /me/notes/notebooks/<id>/sections
 GET /users/<mail>/notes/notebooks/<id>/sections
-GET /users/<objectId>/notes/notebooks/<id>/sections
+GET /users/<id | userPrincipalName>/notes/notebooks/<id>/sections
 GET /groups/<objectId>/notes/notebooks/<id>/sections
 ```
 ### Optional query parameters

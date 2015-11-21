@@ -46,15 +46,15 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "id": "string (identifier)",
-  "toRecipients": [{"@odata.type": "microsoft.graph.recipient"}],
   "ccRecipients": [{"@odata.type": "microsoft.graph.recipient"}],
-  "topic": "string",
   "hasAttachments": true,
-  "lastDeliveredDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
-  "uniqueSenders": ["string"],
+  "id": "string (identifier)",
+  "isLocked": true,
+  "lastDeliveredDateTime": "String (timestamp)",
   "preview": "string",
-  "isLocked": true
+  "toRecipients": [{"@odata.type": "microsoft.graph.recipient"}],
+  "topic": "string",
+  "uniqueSenders": ["string"]
 }
 
 ```

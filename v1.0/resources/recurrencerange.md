@@ -6,10 +6,10 @@ The duration of an event.
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|endDate|String|The end date of the series.|
+|endDate|Date|The end date of the series.|
 |numberOfOccurrences|Int32|How many times to repeat the event.|
-|startDate|String|The start date of the series.|
-|type|String|The recurrence range: `EndDate`, `NoEnd`, `Numbered`.|
+|startDate|Date|The start date of the series.|
+|type|[recurrenceRangeType](recurrenceRangeType.md)|The recurrence range type.|
 
 
 ### JSON representation
@@ -30,7 +30,7 @@ Here is a JSON representation of the resource
   "numberOfOccurrences": 1024,
   "recurrenceTimeZone": "string",
   "startDate": "String (timestamp)",
-  "type": {"@odata.type": "microsoft.graph.recurrenceRangeType"}
+  "type": "String"
 }
 
 ```

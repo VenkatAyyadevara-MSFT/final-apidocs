@@ -45,7 +45,7 @@ Here is a JSON representation of the resource
 {
   "hasAttachments": true,
   "id": "string (identifier)",
-  "lastDeliveredDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastDeliveredDateTime": "String (timestamp)",
   "preview": "string",
   "topic": "string",
   "uniqueSenders": ["string"]

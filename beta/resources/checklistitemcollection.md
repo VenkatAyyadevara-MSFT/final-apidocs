@@ -28,9 +28,9 @@ Here is a JSON representation of the resource
   }
 }
 ```
-```json
 // Example
 
+```json
 {
   "3a73c9dd-fb47-4230-9c0f-b80788fb0f9b": // client-generated GUID
   {
@@ -53,6 +53,8 @@ Here is a JSON representation of the resource
 }
 
 ```
+
+
 ### Properties
 Properties of an Open Type can be defined by the client. In this case, the client should provide **GUIDs** as properties and their values must be [checklistItem](checklistitem.md) objects. Example is shown above. To remove an item in the checklist, set the value of the property to `null`.
 

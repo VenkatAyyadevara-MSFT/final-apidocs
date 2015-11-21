@@ -17,7 +17,7 @@ Here is a JSON representation of the resource
 ```json
 {
   "date": "String (timestamp)",
-  "time": {"@odata.type": "microsoft.graph.timeOfDay"},
+  "time": "String (timestamp)",
   "timeZone": "string"
 }
 

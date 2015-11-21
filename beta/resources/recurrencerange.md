@@ -20,7 +20,7 @@ Here is a JSON representation of the resource
   "numberOfOccurrences": 1024,
   "recurrenceTimeZone": "string",
   "startDate": "String (timestamp)",
-  "type": {"@odata.type": "microsoft.graph.recurrenceRangeType"}
+  "type": "String"
 }
 
 ```

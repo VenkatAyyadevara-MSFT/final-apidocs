@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-PATCH /users/<objectId>/people/<id>
+PATCH /users/<id | userPrincipalName>/people/<id>
 PATCH /drive/root/createdByUser/people/<id>
 PATCH /drive/root/lastModifiedByUser/people/<id>
 ```

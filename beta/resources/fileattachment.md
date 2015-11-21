@@ -22,7 +22,7 @@ Here is a JSON representation of the resource
   "contentType": "string",
   "id": "string (identifier)",
   "isInline": true,
-  "lastModifiedDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastModifiedDateTime": "String (timestamp)",
   "name": "string",
   "size": 1024
 }

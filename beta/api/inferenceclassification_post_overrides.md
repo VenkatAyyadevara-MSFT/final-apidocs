@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/inferenceClassification/overrides
+POST /users/<id | userPrincipalName>/inferenceClassification/overrides
 POST /drive/root/createdByUser/inferenceClassification/overrides
 POST /drive/root/lastModifiedByUser/inferenceClassification/overrides
 

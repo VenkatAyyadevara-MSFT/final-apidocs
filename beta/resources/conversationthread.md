@@ -20,7 +20,7 @@ Here is a JSON representation of the resource
   "hasAttachments": true,
   "id": "string (identifier)",
   "isLocked": true,
-  "lastDeliveredDateTime": {"@odata.type": "microsoft.graph.dateTimeOffset"},
+  "lastDeliveredDateTime": "String (timestamp)",
   "preview": "string",
   "toRecipients": [{"@odata.type": "microsoft.graph.recipient"}],
   "topic": "string",

@@ -6,9 +6,9 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/events/<id>/Microsoft.Graph.dismissReminder
+POST /users/<id | userPrincipalName>/events/<id>/Microsoft.Graph.dismissReminder
 POST /groups/<objectId>/events/<id>/Microsoft.Graph.dismissReminder
-POST /users/<objectId>/calendarView/<id>/Microsoft.Graph.dismissReminder
+POST /users/<id | userPrincipalName>/calendarView/<id>/Microsoft.Graph.dismissReminder
 
 ```
 ### Request headers

@@ -16,7 +16,7 @@ Here is a JSON representation of the resource
 
 ```json
 {
-  "classifyAs": {"@odata.type": "microsoft.graph.inferenceClassificationType"},
+  "classifyAs": "String",
   "id": "string (identifier)",
   "senderEmailAddress": {"@odata.type": "microsoft.graph.emailAddress"}
 }

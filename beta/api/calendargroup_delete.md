@@ -6,7 +6,7 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /users/<objectId>/calendarGroups/<id>
+DELETE /users/<id | userPrincipalName>/calendarGroups/<id>
 DELETE /drive/root/createdByUser/calendarGroups/<id>
 DELETE /drive/root/lastModifiedByUser/calendarGroups/<id>
 

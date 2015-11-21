@@ -6,9 +6,9 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-POST /users/<objectId>/events/<id>/instances
+POST /users/<id | userPrincipalName>/events/<id>/instances
 POST /groups/<objectId>/events/<id>/instances
-POST /users/<objectId>/calendarView/<id>/instances
+POST /users/<id | userPrincipalName>/calendarView/<id>/instances
 
 ```
 ### Request headers

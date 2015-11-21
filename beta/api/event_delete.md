@@ -6,9 +6,9 @@ The following **scopes** are required to execute this API:
 ### HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-DELETE /users/<objectId>/events/<id>
+DELETE /users/<id | userPrincipalName>/events/<id>
 DELETE /groups/<objectId>/events/<id>
-DELETE /users/<objectId>/calendarView/<id>
+DELETE /users/<id | userPrincipalName>/calendarView/<id>
 
 ```
 ### Request headers
